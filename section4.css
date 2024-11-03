@@ -29,19 +29,19 @@ h6 {
   border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
 }
 .card img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
 .rank-box {
-  /* border: 1px solid; */
   height: 11vh;
   width: 90%;
   margin: auto;
   border-radius: 8px;
   background-color: white;
-  margin-top: -20px;
+  margin-top: -30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -58,7 +58,7 @@ h6 {
   background-color: rgb(223, 44, 44);
   color: white;
   top: 8px;
-  left: 5px;
+  left: 7px;
   padding: 5px 8px;
   border-radius: 5px;
 }
@@ -81,4 +81,9 @@ h6 {
 }
 .heading-box h2::before {
   content: url(heading.png);
+}
+.card-title:hover{
+  color: rgb(219, 21, 21);
+  transition: 0.5s ease;
+  cursor: pointer;
 }
